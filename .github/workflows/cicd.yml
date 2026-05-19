@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install copilot-sdk
+          pip install github-copilot-sdk
 
       - name: Run Copilot agent
         env:
